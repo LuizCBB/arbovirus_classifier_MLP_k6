@@ -1,7 +1,10 @@
+from tqdm import tqdm
 import streamlit as st
 import pickle
 import screed
+from scipy.special import softmax
 import pandas as pd
+import mmh3
 import time
 
 alphabet = ["A", "C", "T", "G"]
