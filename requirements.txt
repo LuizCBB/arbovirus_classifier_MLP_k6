@@ -1,10 +1,9 @@
 tqdm
 streamlit
-pickle
 screed
 scipy
 pandas
 mmh3
-
+scikit-learn
 
 
