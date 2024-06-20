@@ -66,7 +66,7 @@ with open("model_MLP_dataset_treino_k6.pkl", 'rb') as f:
     model = pickle.load(f)
 f.close()
 
-labels_model = ['ASV', 'Chikungunya', 'Dengue1', 'Dengue2',
+labels_model = ['ASV ou não arbovirus', 'Chikungunya', 'Dengue1', 'Dengue2',
  'Dengue3', 'Dengue4', 'Eastern_equine_encephalitis',
  'Japanese_encephalitis', 'La_Crosse', 'Mayaro', 'Oropouche',
  'Rift_Valley_fever' ,'Saint_Louis_encephalitis', 'Sindbis',
