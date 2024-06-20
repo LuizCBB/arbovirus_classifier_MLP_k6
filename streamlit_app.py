@@ -88,7 +88,7 @@ st.markdown("""
  
 st.header('Classificador de genomas de arbovirus')
 st.markdown("""<p>Esta aplicação permite a submissão de sequências nucleotídicas a partir de genomas de virus e sua classificação em 
-DENV, ZIKV, YFV, CHIKV, JEV, LACV, MAYV, OROV, RVFV, SLEV, SINV, USUV, WNV, WEEV, EEEV ou AST.</p>""", unsafe_allow_html=True) 
+DENV, ZIKV, YFV, CHIKV, JEV, LACV, MAYV, OROV, RVFV, SLEV, SINV, USUV, WNV, WEEV, EEEV ou ASV/não arbovirus.</p>""", unsafe_allow_html=True) 
 
 
 if "sequences" not in st.session_state:
