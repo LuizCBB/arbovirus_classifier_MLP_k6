@@ -195,7 +195,7 @@ if ex:
 
 
 if cl:
-    st.state["sequences"] = ""
+    st.session_state["sequences"] = ""
     st.rerun()  
     
     
